@@ -4,7 +4,9 @@
   "description": "my first restful Api with all the CRUD operations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:build": "webpack -w",
+    "dev": "cross-env NODE_ENV=development node dist/index.bundle.js"
   },
   "keywords": [
     "Express",
@@ -16,8 +18,21 @@
   "author": "vinay",
   "license": "ISC",
   "dependencies": {
+    "acorn-jsx": "^5.0.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "body-parser": "^1.18.3",
+    "eslint": "^5.9.0",
+    "eslint-config-equimper": "^2.2.2",
     "express": "^4.16.4",
-    "mongoose": "^5.3.11"
+    "mongoose": "^5.3.11",
+    "webpack": "^4.25.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
   }
 }
