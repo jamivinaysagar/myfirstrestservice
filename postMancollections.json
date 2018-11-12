@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "090d801c-88fd-4495-a36d-2a56a0dce0b3",
+		"name": "myMessageBot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				},
+				"description": "Create a new Note\n"
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				},
+				"description": "Retrieve all Notes\n"
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				},
+				"description": "Retrieve a single Note with noteId\n"
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				},
+				"description": "Update a Note with noteId\n"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				},
+				"description": "Delete a Note with noteId\n"
+			},
+			"response": []
+		}
+	]
+}
